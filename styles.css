@@ -25,9 +25,11 @@ label {
     margin-bottom: 5px;
 }
 
-select, button {
+input[type="text"], button {
     margin-bottom: 15px;
     padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 button {
@@ -58,3 +60,8 @@ footer {
     padding: 10px 20px;
     text-align: center;
 }
+
+.hidden {
+    display: none;
+}
+
