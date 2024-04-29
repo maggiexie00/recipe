@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+    <header>
+        <h1>Recipe Website</h1>
+    </header>
+    <main>
+        <section id="preferences">
+            <h2>Preferences</h2>
+            <form id="preferences-form">
+                <label for="cuisine">Cuisine:</label>
+                <select id="cuisine" name="cuisine">
+                    <option value="italian">Italian</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="indian">Indian</option>
+                    <!-- Add more cuisine options -->
+                </select>
+                <label for="diet">Dietary Restrictions:</label>
+                <select id="diet" name="diet">
+                    <option value="none">None</option>
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="gluten free">Gluten Free</option>
+                    <!-- Add more dietary options -->
+                </select>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+        <section id="recipes">
+            <h2>Recipes</h2>
+            <div id="recipe-list">
+                <!-- Recipes fetched from Spoonacular API will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Recipe Website</p>
+    </footer>
+
+    <script src="scripts.js"></script> <!-- Link your JavaScript file here -->
+</body>
+</html>
