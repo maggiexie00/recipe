@@ -11,24 +11,12 @@
         <h1>Recipe Website</h1>
     </header>
     <main>
-        <section id="preferences">
-            <h2>Preferences</h2>
-            <form id="preferences-form">
-                <label for="cuisine">Cuisine:</label>
-                <select id="cuisine" name="cuisine">
-                    <option value="italian">Italian</option>
-                    <option value="mexican">Mexican</option>
-                    <option value="indian">Indian</option>
-                    <!-- Add more cuisine options -->
-                </select>
-                <label for="diet">Dietary Restrictions:</label>
-                <select id="diet" name="diet">
-                    <option value="none">None</option>
-                    <option value="vegetarian">Vegetarian</option>
-                    <option value="vegan">Vegan</option>
-                    <option value="gluten free">Gluten Free</option>
-                    <!-- Add more dietary options -->
-                </select>
+        <section id="ingredient-search">
+            <h2>Search by Ingredients</h2>
+            <button id="search-by-ingredient">Search by Ingredient</button>
+            <form id="ingredient-form" class="hidden">
+                <label for="ingredient-input">Enter ingredients (comma separated):</label>
+                <input type="text" id="ingredient-input" name="ingredient-input" required>
                 <button type="submit">Search</button>
             </form>
         </section>
