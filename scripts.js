@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function fetchRecipes(cuisine, diet) {
-    const apiKey = 'YOUR_SPOONACULAR_API_KEY';
+    const apiKey = '00769ec18f914af8beefa3b804401b46';
     const url = `https://api.spoonacular.com/recipes/complexSearch?cuisine=${cuisine}&diet=${diet}&apiKey=${apiKey}&number=9`;
 
     fetch(url)
