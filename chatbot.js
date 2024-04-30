@@ -19,19 +19,17 @@ function addMessage(sender, message) {
 
 function getReply(message) {
   let reply = '';
-  if (message.toLowerCase().includes('italian')) {
+  if (message.toLowerCase().includes('itali')) {
     reply = 'You could try Pizza Napoletana';
-  } else if (message.toLowerCase().includes('chinese')) {
-    reply = 'You could try fiery Sichuan hot pots.';
   } else if (message.toLowerCase().includes('thai')) {
     reply = 'You could try Thai iced tea.';
-  } else if (message.toLowerCase().includes('indian')) {
+  } else if (message.toLowerCase().includes('india')) {
     reply = 'You could try Dal Makhani.';
-  } else if (message.toLowerCase().includes('japanese')) {
+  } else if (message.toLowerCase().includes('japan')) {
     reply = 'You could try Tempura.';
-  } else if (message.toLowerCase().includes('mexican')) {
+  } else if (message.toLowerCase().includes('mexi')) {
     reply = 'You could try Chiles en nogada.';
-  } else if (message.toLowerCase().includes('french')) {
+  } else if (message.toLowerCase().includes('fren')) {
     reply = 'You could try hearty coq au vin';
   } else {
     reply = 'Do you enjoy French food?';
