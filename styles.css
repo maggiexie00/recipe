@@ -28,7 +28,7 @@ label {
 input[type="text"], button {
     margin-bottom: 15px;
     padding: 8px;
-    width: 60%;
+    width: 100%;
     box-sizing: border-box;
 }
 
