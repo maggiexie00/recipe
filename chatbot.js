@@ -31,7 +31,9 @@ function getReply(message) {
     reply = 'You could try Chiles en nogada.';
   } else if (message.toLowerCase().includes('fren')) {
     reply = 'You could try hearty coq au vin';
-  } else {
+  } else if (message.toLowerCase().includes('ye')){
+    reply = 
+  } else { 'You could try hearty coq au vin';
     reply = 'Do you enjoy French food?';
   }
   return reply;
