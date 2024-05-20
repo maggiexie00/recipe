@@ -86,7 +86,7 @@ function displayRecipes(recipes) {
             <h3>${recipe.title}</h3>
             <img src="${recipe.image}" alt="${recipe.title}">
             <p>Missing ingredients: ${recipe.missedIngredients.map(ingredient => ingredient.name).join(', ')}</p>
-            <a href="${recipe.sourceUrl}" target="_blank">View Recipe</a>
+
         `;
         recipeList.appendChild(recipeCard);
     });
