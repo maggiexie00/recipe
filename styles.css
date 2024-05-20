@@ -32,6 +32,10 @@ input[type="text"], button {
     box-sizing: border-box;
 }
 
+h2{
+  text-align:center;
+}
+
 button {
     background-color: #007bff;
     color: #fff;
@@ -57,6 +61,7 @@ button:hover {
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 5px;
+    margin:0 auto;
 }
 
 .chat-container {
@@ -71,15 +76,16 @@ button:hover {
     width: 20em;
     overflow-y: scroll;
     padding: 10px;
-    margin-bottom: 10px;
+    margin:10px auto 10px auto;
     border: 1px solid black;
     border-radius: 3px;
 }  
-input[type="text"] {
-    width: 70%;
+.chat-input{
+    width: 21.5em;
     padding: 5px;
-    border: 1px solid black;
+ 
     border-radius: 3px;
+    margin:10px auto 10px auto;
 } 
 button {
     padding: 5px 10px;
@@ -87,7 +93,10 @@ button {
     color: #fff;
     border: none;
     border-radius: 3px;
+    width:25.8em;
     cursor: pointer;
+    display:block;
+    margin:0 auto;
 }
 button:hover {
     background-color: #0056b3;
@@ -102,14 +111,7 @@ button:hover {
 .bot {
     text-align: left;
 }
-@media (max-width: 767px) {
-    .chat-box {
-        width: 100%;
-    }
-    input[type="text"] {
-        width: 60%;
-    }
-} 
+
 footer {
     background-color: #f8f9fa;
     padding: 10px 20px;
@@ -119,4 +121,3 @@ footer {
 .hidden {
     display: none;
 }
-
