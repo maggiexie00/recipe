@@ -32,8 +32,8 @@ function getReply(message) {
   } else if (message.toLowerCase().includes('fren')) {
     reply = 'You could try hearty coq au vin';
   } else if (message.toLowerCase().includes('ye')){
-    reply = 
-  } else { 'You could try hearty coq au vin';
+    reply = 'You could try hearty coq au vin';
+  } else { 
     reply = 'Do you enjoy French food?';
   }
   return reply;
