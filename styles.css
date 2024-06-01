@@ -63,6 +63,17 @@ button:hover {
     border-radius: 5px;
 }
 
+#how-it-works{
+  margin-top:50px;
+  display:flex;
+  justify-content:center;
+}
+
+#how-it-works iframe{
+  max-width:560px;
+  width:100%;
+}
+
 .chat-container {
     margin: 0.5em auto;
     padding: 20px;
