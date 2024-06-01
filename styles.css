@@ -92,11 +92,12 @@ button:hover {
     margin:10px auto 10px auto;
     border: 1px solid black;
     border-radius: 3px;
+    color: white;
 }  
 .chat-input{
     width: 21.5em;
     padding: 5px;
- 
+    color: white;
     border-radius: 3px;
     margin:10px auto 10px auto;
 } 
