@@ -1,9 +1,14 @@
 /* styles.css */
-
 body {
-    font-family: Arial, sans-serif;
+    background-image: 'ratatouille.jpeg';
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed during scrolling */
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
+    color: white; /* Adjust text color for better readability */
 }
 
 header {
