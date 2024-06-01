@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-    background-image: 'ratatouille.jpeg';
+    background-image: url(ratatouille.jpeg);
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-position: center center; /* Centers the image */
